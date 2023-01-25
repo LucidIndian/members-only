@@ -1,24 +1,23 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is the "Project: Members Only!" in The Odin Project’s Ruby on Rails Curriculum. Find it at https://www.theodinproject.com/lessons/ruby-on-rails-members-only
 
-Things you may want to cover:
+Purpose:  practice validation and authorization in Rails. 
 
-* Ruby version
+What is this?: a Clubhouse: Messages may be posted anonymously, but when a user logs in they can see the real identity of the post's author. No styling or other features have been added.
 
-* System dependencies
+Ruby version: > v3.0
 
-* Configuration
+System dependencies: TBD
 
-* Database creation
+Configuration: TBD
 
-* Database initialization
+Database creation: TBD
 
-* How to run the test suite
+Database initialization: TBD
 
-* Services (job queues, cache servers, search engines, etc.)
+How to run the test suite: Likely no tests will be written in this app.
 
-* Deployment instructions
+Services (job queues, cache servers, search engines, etc.): TBD
 
-* ...
+Deployment instructions: TBD
