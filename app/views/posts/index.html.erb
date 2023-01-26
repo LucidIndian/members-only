@@ -1,6 +1,17 @@
 <p style="color: green"><%= notice %></p>
 
-<h1>Posts</h1>
+<% if current_user %>
+  <p>Welcome, user!</p>
+  <%= button_to "Sign Out", destroy_user_session_path, method: :delete %>
+<% else %>
+  <p>Welcome, newbie!</p>
+  <%= link_to "Sign In", new_user_session_path, method: :get %>
+<% end %>
+
+
+
+
+<h1>All Posts</h1>
 
 <div id="posts">
   <% @posts.each do |post| %>
@@ -9,3 +20,4 @@
 </div>
 
 <%= link_to "New post", new_post_path %>
+

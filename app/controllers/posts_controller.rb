@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
   before_action :set_post, only: %i[ show edit update destroy ]
-  # Devise helper
-  before_action :authenticate_user!
+  # Devise helper, required login
+  before_action :authenticate_user!, only: %i[ new create ]
 
   # GET /posts or /posts.json
   def index
