@@ -12,8 +12,13 @@
 
   <body>
     <%# flash messages - for Devise setup %>
-    <p class="notice"><%= notice %></p>
-    <p class="alert"><%= alert %></p>
+    <%# <% flash.each do |name, msg| -%> 
+      <%# <%= content_tag :div, msg, class: name %> 
+    <%# <% end -%> 
+
+    <%# This is how Devise does it: %>
+    <p class="notice" style="color: green"><%= notice %></p>
+    <p class="alert" style="color: red"><%= alert %></p>
     <%= yield %>
   </body>
 </html>
