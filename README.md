@@ -4,7 +4,7 @@ This is the "Project: Members Only!" in The Odin Project’s Ruby on Rails Curri
 
 Purpose:  practice validation and authorization in Rails. 
 
-What is this?: a Clubhouse: Messages may be posted anonymously, but when a user logs in they can see the real identity of the post's author. No styling or other features have been added.
+What is this?: a Clubhouse messaging app! Messages may be viewed anonymously without logging in but when a user logs in they can see the real identity of the post's author and create new posts. No styling or other features have been added.
 
 Ruby version: > v3.0
 
